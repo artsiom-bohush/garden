@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.catalogButton {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #393;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar {
+    display: flex;
+    gap: 170px;
+}
+
+.linksContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.navbarLinks {
+    all: unset;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
