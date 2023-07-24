@@ -1,0 +1,51 @@
+.container {
+    height: 600px;
+    background: rgba(161, 226, 235, 1);
+    position: relative;
+}
+
+.adImgContainer {
+    position: absolute;
+    top: -11%;
+    right: 0;
+}
+
+.titlesContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 0px 140px 50px;
+    margin-left: 50px;
+}
+
+.title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 104px */
+}
+
+.subtitle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 81.9px */
+}
+
+.saleButton {
+    padding: 25px 50px;
+    border-radius: 13px;
+    border: none;
+    background: #FFF;
+    color: #2D2D2D;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 32.5px */
+    width: fit-content;
+    margin-top: 60px;
+}
